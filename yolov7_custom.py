@@ -218,7 +218,7 @@ if __name__=='__main__':
 
     #INPUTS
     img_size=416
-    path_yolov7_weights="best.pt"
+    path_yolov7_weights="bestl.pt"
     path_img_i=r"test_images/flag.jpg"
 
     #INITIALIZE THE app
