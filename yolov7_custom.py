@@ -219,7 +219,7 @@ if __name__=='__main__':
     #INPUTS
     img_size=416
     path_yolov7_weights="bestl.pt"
-    path_img_i=r"test_images/flag.jpg"
+    path_img_i=r"https://i0.wp.com/apeejay.news/wp-content/uploads/2022/08/Har-Ghar-Tiranga.png?fit=2362%2C1503&ssl=1"
 
     #INITIALIZE THE app
     app=SingleInference_YOLOV7(img_size,path_yolov7_weights,path_img_i,device_i='cpu',conf_thres=0.25,iou_thres=0.5)
