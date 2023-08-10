@@ -90,7 +90,7 @@ if __name__=='__main__':
     app=Streamlit_YOLOV7()
 
     #INPUTS for YOLOV7
-    img_size=1056
+    img_size=416
     path_yolov7_weights="best.pt"
     path_img_i="https://i0.wp.com/apeejay.news/wp-content/uploads/2022/08/Har-Ghar-Tiranga.png?fit=2362%2C1503&ssl=1"
     #INPUTS for webapp
