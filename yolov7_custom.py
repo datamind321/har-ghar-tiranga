@@ -12,7 +12,7 @@ class SingleInference_YOLOV7:
     img_size, path_yolov7_weights, 
     path_img_i='None',
     device_i='cpu',
-    conf_thres=0.25,
+    conf_thres=0.50,
     iou_thres=0.5):
 
         self.conf_thres=conf_thres
@@ -222,7 +222,7 @@ if __name__=='__main__':
     path_img_i=r"https://i0.wp.com/apeejay.news/wp-content/uploads/2022/08/Har-Ghar-Tiranga.png?fit=2362%2C1503&ssl=1"
 
     #INITIALIZE THE app
-    app=SingleInference_YOLOV7(img_size,path_yolov7_weights,path_img_i,device_i='cpu',conf_thres=0.25,iou_thres=0.5)
+    app=SingleInference_YOLOV7(img_size,path_yolov7_weights,path_img_i,device_i='cpu',conf_thres=0.50,iou_thres=0.5)
 
     #LOAD & INFERENCE
     app.load_model() #Load the yolov7 model
